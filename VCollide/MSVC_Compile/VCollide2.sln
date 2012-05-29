@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RAPID", "RAPID.vcproj", "{88DB65BD-EAB8-483F-9D3A-1C5287B495DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VCollide", "VCollide.vcproj", "{3910ED4E-0056-40D8-894A-49841374F033}"
+	ProjectSection(ProjectDependencies) = postProject
+		{88DB65BD-EAB8-483F-9D3A-1C5287B495DD} = {88DB65BD-EAB8-483F-9D3A-1C5287B495DD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88DB65BD-EAB8-483F-9D3A-1C5287B495DD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88DB65BD-EAB8-483F-9D3A-1C5287B495DD}.Debug|Win32.Build.0 = Debug|Win32
+		{88DB65BD-EAB8-483F-9D3A-1C5287B495DD}.Release|Win32.ActiveCfg = Release|Win32
+		{88DB65BD-EAB8-483F-9D3A-1C5287B495DD}.Release|Win32.Build.0 = Release|Win32
+		{3910ED4E-0056-40D8-894A-49841374F033}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3910ED4E-0056-40D8-894A-49841374F033}.Debug|Win32.Build.0 = Debug|Win32
+		{3910ED4E-0056-40D8-894A-49841374F033}.Release|Win32.ActiveCfg = Release|Win32
+		{3910ED4E-0056-40D8-894A-49841374F033}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

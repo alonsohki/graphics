@@ -1,0 +1,34 @@
+<?xml version="1.0">
+<xml>
+	<ship name="hatak" >
+		<velocity max="3000" accel="200" turn="0.85" />
+		<health value="10000" />
+		<shield value="50000" color="#FF9D3C" />
+		<weapons reloadtime="70" >
+			<weapon x="22.571"   y="-135.148" z="113.317" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+			<weapon x="-22.571"  y="-135.148" z="113.317" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+			<weapon x="129.522"  y="47.733"   z="113.317" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+			<weapon x="129.522"  y="87.817"   z="113.317" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+			<weapon x="-106.964" y="88.571"   z="113.317" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+			<weapon x="-129.613" y="49.802"   z="113.317" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+
+			<weapon x="22.571"   y="-135.148" z="75.554" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+			<weapon x="-22.571"  y="-135.148" z="75.554" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+			<weapon x="129.522"  y="47.733"   z="75.554" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+			<weapon x="129.522"  y="87.817"   z="75.554" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+			<weapon x="-106.964" y="88.571"   z="75.554" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+			<weapon x="-129.613" y="49.802"   z="75.554" type="plasma" color="#FF9D3C" ttl="5000" special="no" />
+		</weapons>
+	</ship>
+	<ship name="daedalus" >
+		<velocity max="1800" accel="400" turn="0.85" />
+		<health value="10000" />
+		<shield value="50000" color="#FF9D3C" />
+		<weapons reloadtime="90" >
+			<weapon x="41.731636"  y="22.761972" z="111.594997" type="plasma" color="#FFFF00" ttl="2500" special="no" />
+			<weapon x="-40.892607" y="23.224665" z="111.537161" type="plasma" color="#FFFF00" ttl="2500" special="no" />
+			<weapon x="42.40714"   y="21.872527" z="194.339562" type="plasma" color="#FFFF00" ttl="2500" special="no" />
+			<weapon x="-40.892607" y="23.224665" z="191.386814" type="plasma" color="#FFFF00" ttl="2500" special="no" />
+		</weapons>
+	</ship>
+</xml>
