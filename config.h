@@ -5,7 +5,7 @@
 /* #undef HAVE_GLUTINIT */
 
 /* Define to 1 if you have the <GL/glew.h> header file. */
-#define HAVE_GL_GLEW_H 1
+/* #undef HAVE_GL_GLEW_H */
 
 /* Define to 1 if you have the <GL/glut.h> header file. */
 #define HAVE_GL_GLUT_H 1
@@ -51,6 +51,9 @@
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "graficos"
+
+/* Define to the home page for this package. */
+#define PACKAGE_URL ""
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "0.1"
